@@ -3,9 +3,11 @@ jdk: oraclejdk8
 
 addons:
   sonarqube:
-    organization: "ubu.gii" # the key of the org you chose at step #3
-    #token:
-    #  secure:960f6ae93d10e343ac0e2963c99dfaff0b5d1216 # encrypted value of your token
+  # the key of the org you chose at step #3
+    organization:"tfg" 
+  # encrypted value of your token
+    token:
+      secure:960f6ae93d10e343ac0e2963c99dfaff0b5d1216   
 script:
   # other script steps might be done before running the actual SonarQube analysis
-  - sonar-scanner
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
