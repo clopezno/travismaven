@@ -3,7 +3,7 @@ sudo: false
 install: true
 addons:
   sonarqube:
-    organization:tfg 
+    organization: tfg 
     token:
       secure:MMm5a+Q4QYY05mqcUljXfEyW8X+ZFZcyFPadIoCWCRqofKuEJ4eB3d2eFRW4Lx1S4LfSBFwHtln9uLdqgEFvf357IoZjSfv8B/s2r1cRdmeBpdMIevXTcTm2T2RfE46hfdCyrxtiUqfTP0VI69A6ciVqgLEsryAhg0/e5Hn6X6+4F9gGmM4oBKTUDQ4AhAtjUuePAXHtzhTiplKjRStBMtSO7oF9Gv7rtm4l+eVuMAwm7SPLmHNNScgwDtbxG9W1psT2y0PjNJ7CUTkHdr5XR+beG6E9qB9xVHDJBBUZqAQUGiS+r8Es+YBCOOsgkcJ1p+h5IuyTICQFj+21KJg/OVnJtBqZ2ipfII33DfJbhg7msv7kJy7RVGkFG6+XwIa7CnQ6gxQm2H0VMmjnUMeZLaNiJtWLztjO7o5Iyc7fgJxhIJCZs0PuMgyoEjBYcsnkM5ryDuP/BSMqKrMatZjptWixTRQwIIWDQbjjSdV1R38/eO9eSjRlZ5M9xQ2iCWTwc6bztUm+9n1Hip0J6FvV1Gd/EZGFfGOVonAM/MvpsBq+7AkaqcSKF/zhwPO9muKSg7XctGAEDBSx4rL7yB1xOePk9oT2J8OXRLJjowyCccLCSek0CXvPOVgmp0AUHEWcaY9r07yi/5enaJk7DJBJJ171xYbTdlVgwV+9AtGg+nk=
 jdk:
