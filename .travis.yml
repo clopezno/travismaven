@@ -9,7 +9,7 @@ addons:
 jdk:
   - oraclejdk8
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=com.mycompany.app -Dsonar.sources=./src/main -Dsonar.host.url=https://sonarqube.com -Dsonar.organization=tfg -Dsonar.login=394ce547bf8659e7bafdd2c781196af1f2b32c65
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
 cache:
   directories:
     - '$HOME/.m2/repository'
