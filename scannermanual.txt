@@ -1,0 +1,8 @@
+###Sonar scanner
+sonar-scanner -Dsonar.projectKey=com.mycompany.app -Dsonar.sources=./src  -Dsonar.host.url=https://sonarqube.com  -Dsonar.organization=tfg -Dsonar.login=394ce547bf8659e7bafdd2c781196af1f2b32c65
+
+###Maven
+mvn sonar:sonar -Dsonar.projectKey=com.mycompany.app -Dsonar.sources=./src/main -Dsonar.host.url=https://sonarqube.com -Dsonar.organization=tfg -Dsonar.login=394ce547bf8659e7bafdd2c781196af1f2b32c65
+
+##Token encriptado
+ePjRQa92K0hl3audccJnn6gNLBjn3j1qrDJG61TrpX7oXcFPCOOGE+Lnp35eNOVnOG8PDvsLoZPVT150Jp98LXFAXS66OCuKVy85wUvlQtNdretJRcMkHf3lh7C9MMAK2bvXHbqxpS2E44lf1yRthLUROGuYzqPBlvcYa5twdqU5GJE1srhi/BLgQpxCnB+KtyW8uTziiPfzitndMkSExsdtSHgYFkhHO9oCMDNS/8aNRwYxtaHLtcNHRhECWE5yoJKtEJhlGXX4KxHvGM1mPQU0NlDRO4dLHvRwSDlWTN0h2HoeDB3Df99EXK0dL24escdPg+5V1BoYHtKVDVaWqAAcs9PfMUmS/ihbqewuW6q/P6QJxwSuQjJkzzGLF584ny9xHyE4BYobOz6IDUSu6blHNe09qWvnXUsIxwmfzgj/B2lArtSgcxAK+EAc+rsO4uNWXIZ6a2+D+Vx9mlUyRYRXGmnCrpuVfwyTh4na63AKIYpBrJqpShvs9eHGMAwbo/J3NESlCfvWI9WFtBexV1wW1mioq/vadWJzsYkaSQtIieo8Zapfd5g45dTmRxBIiHoTGi35MEnQgZMwQWCTsSQfrx7a4apI/b33dR9MKvEQZirv2RiuyKMBl4PHxg7GSF0KQpyHKncN4qa3FcSRHO9UQeWGHtkwYtdmSRdHS34=
